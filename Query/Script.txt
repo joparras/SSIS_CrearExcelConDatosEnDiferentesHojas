@@ -1,0 +1,15 @@
+--SSIS_DEMO_EXCEL (DB)
+
+CREATE TABLE TotalSale
+(
+Nombre Varchar(100), 
+Producto Varchar(100), 
+Ciudad Varchar(100), 
+Region Varchar(100)
+)
+
+insert into TotalSale values  
+('pepe','rojas','lima','lima'),
+('pepe','rojas','lima','lima'),
+('pepe','rojas','ica','ica'),
+('pepe','rojas','arequipa','arequipa')
